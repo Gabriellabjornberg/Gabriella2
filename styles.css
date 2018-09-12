@@ -1,0 +1,40 @@
+.heading {
+  background-color: grey;
+  padding: 10px;
+}
+.background-section-1 {
+    background-image: url("images/image1.jpg");
+    height: 500px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .background-section-2 {
+      background-image: url("images/image2.jpg");
+      height: 500px;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .section3 {
+      background-color: grey;
+      padding: 30px;
+      border: 10px solid black;
+      display: flex;
+      justify-content: center;
+    }
+    .spin
+    {
+      -webkit-transition: -webkit-transform .8s ease-in-out;
+      transition: transform .8s ease-in-out;
+      margin-top: 20px;
+      width: 30%;
+    }
+
+    .spin:hover {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+    .spin img {
+      width: 100%
+      }
