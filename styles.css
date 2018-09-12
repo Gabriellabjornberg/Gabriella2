@@ -40,14 +40,15 @@
       }
       h2 {
         position: absolute;
-    bottom: 30%;
-    right: 30%;
-    background-color: grey;
+    bottom: 20px;
+    right: 40px;
+     background-color: rgba(49, 11, 124, 0.5);
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
+    padding: 30px;
     }
     .container {
     position: relative;
-    margin: -20px;
+    margin: -20px;}
+    .dubble {
+      padding: 10px;
+    }
