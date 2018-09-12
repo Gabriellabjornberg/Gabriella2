@@ -1,6 +1,6 @@
 .heading {
   background-color: grey;
-  padding: 10px;
+  padding: 20px;
 }
 .background-section-1 {
     background-image: url("images/image1.jpg");
@@ -38,3 +38,16 @@
     .spin img {
       width: 100%
       }
+      h2 {
+        position: absolute;
+    bottom: 30%;
+    right: 30%;
+    background-color: grey;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    }
+    .container {
+    position: relative;
+    margin: -20px;
